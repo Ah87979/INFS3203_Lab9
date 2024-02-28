@@ -1,1 +1,1 @@
-This is a README file bruh
+This is a README file.
