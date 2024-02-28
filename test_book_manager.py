@@ -12,7 +12,7 @@ class TestBookManager(unittest.TestCase):
     def test_add_and_list_books(self):
         self.manager.add_book(self.book1)
         self.manager.add_book(self.book2)
-        self.assertEqual(self.manager.list_books(), {self.book1, self.book2}
+        self.assertEqual(self.manager.list_books(), {self.book1, self.book2})
 
     def test_remove_book(self):
         self.manager.add_book(self.book1)
