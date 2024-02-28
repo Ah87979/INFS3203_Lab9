@@ -6,7 +6,7 @@ class TestBookManager(unittest.TestCase):
         self.manager = BookManager()
         # Add setup for test books here
         self.book1 = Book(1, 'Book One', 'Author A')
-        self.book2 = Book(2, 'Book Two', 'Author B'}
+        self.book2 = Book(2, 'Book Two', 'Author B')
 
     # Implement test methods here
     def test_add_and_list_books(self):
